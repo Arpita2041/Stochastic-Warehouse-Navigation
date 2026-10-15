@@ -2,6 +2,7 @@
 
 Learn routes through a warehouse grid with walls, terminal hazards, and stochastic movement. Students compare Q-learning and SARSA with a random policy and a planner that knows the transition model, then inspect policies and replay trajectories.
 
+**Development date:** December 2025
 ## Setup
 
 Use Python 3.11 or later. Commands below are run inside this project folder.
