@@ -1,0 +1,230 @@
+{
+  "outcome": "goal",
+  "trace": [
+    {
+      "step": 1,
+      "cell": [
+        0,
+        0
+      ],
+      "action": "right",
+      "next_cell": [
+        0,
+        1
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 2,
+      "cell": [
+        0,
+        1
+      ],
+      "action": "right",
+      "next_cell": [
+        0,
+        2
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 3,
+      "cell": [
+        0,
+        2
+      ],
+      "action": "right",
+      "next_cell": [
+        0,
+        3
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 4,
+      "cell": [
+        0,
+        3
+      ],
+      "action": "right",
+      "next_cell": [
+        0,
+        4
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 5,
+      "cell": [
+        0,
+        4
+      ],
+      "action": "right",
+      "next_cell": [
+        0,
+        5
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 6,
+      "cell": [
+        0,
+        5
+      ],
+      "action": "right",
+      "next_cell": [
+        0,
+        5
+      ],
+      "reward": -0.3,
+      "collision": true,
+      "terminal": false
+    },
+    {
+      "step": 7,
+      "cell": [
+        0,
+        5
+      ],
+      "action": "right",
+      "next_cell": [
+        0,
+        6
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 8,
+      "cell": [
+        0,
+        6
+      ],
+      "action": "down",
+      "next_cell": [
+        1,
+        6
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 9,
+      "cell": [
+        1,
+        6
+      ],
+      "action": "down",
+      "next_cell": [
+        1,
+        7
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 10,
+      "cell": [
+        1,
+        7
+      ],
+      "action": "down",
+      "next_cell": [
+        2,
+        7
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 11,
+      "cell": [
+        2,
+        7
+      ],
+      "action": "down",
+      "next_cell": [
+        3,
+        7
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 12,
+      "cell": [
+        3,
+        7
+      ],
+      "action": "down",
+      "next_cell": [
+        4,
+        7
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 13,
+      "cell": [
+        4,
+        7
+      ],
+      "action": "down",
+      "next_cell": [
+        5,
+        7
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 14,
+      "cell": [
+        5,
+        7
+      ],
+      "action": "down",
+      "next_cell": [
+        6,
+        7
+      ],
+      "reward": -0.1,
+      "collision": false,
+      "terminal": false
+    },
+    {
+      "step": 15,
+      "cell": [
+        6,
+        7
+      ],
+      "action": "down",
+      "next_cell": [
+        7,
+        7
+      ],
+      "reward": 10.0,
+      "collision": false,
+      "terminal": true
+    }
+  ]
+}

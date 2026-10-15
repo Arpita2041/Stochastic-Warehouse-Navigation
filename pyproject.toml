@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "warehouse-rl-course"
+version = "1.0.0"
+description = "Stochastic Warehouse Navigation with Reinforcement Learning"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+license = "MIT"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["project*"]
