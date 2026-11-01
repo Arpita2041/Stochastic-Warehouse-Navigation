@@ -15,4 +15,4 @@ The proposed idea compares four methods: Random Policy, Value Iteration, Q-Learn
 
 The comparison demonstrates that agents can learn effective routes through interactions with the simulated environment.
 
-**Development date:** December 2025
+**Development date:** November 2025
